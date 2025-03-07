@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 16
+      nodejs: 18
   pre_build:
     commands:
       - npm install
@@ -12,5 +12,10 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./dist s3://test-zzimong
+      - echo "Completed"
+artifacts:
+  files:
+    - dist/**/*
+    - appspec.yml
+    - scripts/*
 
