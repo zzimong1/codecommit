@@ -89,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Iam SexyBoy ZZIMONG'
+      msg: 'My Name is KimJongMyeong'
     }
   }
 }
