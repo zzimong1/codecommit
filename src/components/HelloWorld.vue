@@ -80,7 +80,7 @@
         </a>
       </li>
     </ul>
-    <h1> My Second Release! </h1>
+    <h1> NAMYANGJU HOT SEXY GUY! </h1>
   </div>
 </template>
 
@@ -89,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'My Name is KimJongMyeong'
+      msg: 'My Name is KimJongMyung'
     }
   }
 }
